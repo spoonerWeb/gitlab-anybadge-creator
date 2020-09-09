@@ -1,8 +1,4 @@
-stages:
-    - build
-
-create_badge_svg:
-  stage: build
+.create_badge: &create_badge 
   image: python:3.6.6
   tags:
     - docker

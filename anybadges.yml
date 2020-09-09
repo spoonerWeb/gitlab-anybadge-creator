@@ -1,4 +1,4 @@
-.create_badge: &create_badge 
+"Create Badge":
   image: python:3.6.6
   tags:
     - docker
@@ -9,9 +9,9 @@
     - cd badges
   script:
     - echo "Please add your anybadge definition into script part"
-    - echo "Documentation: https://github.com/jongracecox/anybadge#basic-usage"
+    - echo "Documentation https://github.com/jongracecox/anybadge#basic-usage"
   artifacts:
     paths:
-        - badges/
+      - badges/
     when: always
     expire_in: 4 weeks

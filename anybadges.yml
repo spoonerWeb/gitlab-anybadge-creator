@@ -1,7 +1,5 @@
 "Create Badge":
   image: python:3.6.6
-  tags:
-    - docker
   before_script:
     - echo "Python other dependencies installation"
     - pip install anybadge

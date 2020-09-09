@@ -4,8 +4,9 @@
     - docker
   before_script:
     - echo "Python other dependencies installation"
-    - mkdir badges
     - pip install anybadge
+    - mkdir badges
+    - cd badges
   script:
     - echo "Please add your anybadge definition into script part"
     - echo "Documentation: https://github.com/jongracecox/anybadge#basic-usage"

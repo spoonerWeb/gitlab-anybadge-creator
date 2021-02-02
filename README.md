@@ -13,7 +13,7 @@ You only need a GitLab CI pipeline in your project
 1. Include the YAML file as proposed in 
 ```yaml
 include:
-  - remote: 'https://git.spooner.io/spooner-web/gitlab-anybadge-creator/-/raw/main/anybadges.yml'
+  - remote: 'https://git.spooner.io/ci-templates/gitlab-anybadge-creator/-/raw/main/anybadges.yml'
 ``` 
 1. Use the prepared `"Create Badge"` job adjust your code into the `script` part. See [Examples](#Examples)
 1. Add the badge to your README with e.g. `[![Label](https://example.gitlab.com/<project-path>/-/jobs/artifacts/<ref>/raw/badges/<badge-filename>.svg?job=Create+Badge)](<link-to-head-when-clicking>)`

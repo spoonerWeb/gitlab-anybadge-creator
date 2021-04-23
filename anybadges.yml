@@ -3,6 +3,7 @@
   before_script:
     - echo "Python other dependencies installation"
     - pip install anybadge
+    - rm -Rf badges
     - mkdir badges
     - cd badges
   script:
